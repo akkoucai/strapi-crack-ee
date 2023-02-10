@@ -1,7 +1,7 @@
 {
-  "name": "@iopanda/strapi-crack-ee",
-  "version": "1.0.11",
-  "description": "",
+  "name": "@mihtonmi/strapi-crack-ee",
+  "version": "1.0.3",
+  "description": "**WARNING: This project is only for technique testing, DO NOT use this package in any production environment!**",
   "main": "index.js",
   "bin": {
     "strapi-crack": "index.js"
@@ -9,10 +9,14 @@
   "scripts": {
     "postinstall": "node index.js init"
   },
-  "author": "iopanda",
+  "author": "akkoucai",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iopanda/strapi-crack-ee.git"
-  }
+    "url": "git+https://github.com/akkoucai/strapi-crack-ee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akkoucai/strapi-crack-ee/issues"
+  },
+  "homepage": "https://github.com/akkoucai/strapi-crack-ee#readme"
 }
