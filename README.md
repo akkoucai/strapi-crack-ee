@@ -8,14 +8,14 @@ Usage:
 
 1.1. Make sure you have install the required packages (Strapi packages) already.
 
-``` shell
+```shell
 npm install
 ```
 
 1.2. Install in your strapi project by below command:
 
 ```shell
-npm install @iopanda/strapi-crack-ee
+npm install @mihtonmi/strapi-crack-ee
 ```
 
 This package will generate the license automatically in your project.
@@ -26,18 +26,18 @@ Also, you can run the crack by command.
 
 2.1 Install packages
 
-``` shell
+```shell
 npm install
-npm install @iopanda/strapi-crack-ee --save
+npm install @mihtonmi/strapi-crack-ee --save
 ```
 
 2.2 Modify your package.json file, add new record in script
 
-``` json
+```json
 {
-    "scripts": {
-        "crack": "strapi-crack"
-    }
+  "scripts": {
+    "crack": "strapi-crack"
+  }
 }
 ```
 

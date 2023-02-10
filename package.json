@@ -1,7 +1,7 @@
 {
   "name": "@mihtonmi/strapi-crack-ee",
-  "version": "1.0.3",
-  "description": "**WARNING: This project is only for technique testing, DO NOT use this package in any production environment!**",
+  "version": "1.0.4",
+  "description": "**WARNING: This project is only for technique testing, DO NOT use this package in any production environment!** | Fork from @iopanda/strapi-crack-ee",
   "main": "index.js",
   "bin": {
     "strapi-crack": "index.js"
